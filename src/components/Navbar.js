@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [activeLink, setActiveLink] = useState('');
 
-    const handleItemClick = (e, { name }) => setActiveLink();
-
-    const { activeItem } = activeLink;
+    const handleClick = (e, {name}) => setActiveLink(name)
     
     return (
         <Menu>
@@ -15,17 +13,17 @@ const Navbar = () => {
                 as={Link}
                 to="/"
                 name="home"
-                active={activeItem === 'home'}
-                onClick={handleItemClick}
+                active={activeLink === 'home'}
+                onClick={handleClick}
                 >
                 Home
             </Menu.Item>
             <Menu.Item
                 as={Link}
-                to="/"
+                to="/about"
                 name="about"
-                active={activeItem === 'about'}
-                onClick={handleItemClick}
+                active={activeLink === 'about'}
+                onClick={handleClick}
             >
                 About
             </Menu.Item>

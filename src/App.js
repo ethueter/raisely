@@ -1,6 +1,5 @@
 import React from 'react';
-import { Header } from 'semantic-ui-react';
-import { Route, Switch } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
 import MainContainer from './components/MainContainer';
@@ -15,11 +14,10 @@ function App() {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path='/about' component={About} />
+          <Route exact path='/About' component={About} />
           <Route exact path='/' component={MainContainer} />
         </Switch>
       </div>
-      <h1>Customer Success Engineer</h1>
     </div>
   );
 }

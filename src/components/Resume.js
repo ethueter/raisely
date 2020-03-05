@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Divider, Header, List } from 'semantic-ui-react';
+import { Container, Divider, Header, Image, List } from 'semantic-ui-react';
 
 const Resume = () => {
     
@@ -17,6 +17,7 @@ const Resume = () => {
             development, systems integration, reporting and account management.
           </p>
           <Header size="medium">Technical Skills</Header>
+                <Image src='resume-logos.jpg' size="medium" centered/>
           <p>Ruby | Rails | JavaScript | React | React Native | Redux</p>
           <Header size="medium">Technical Projects</Header>
           <Container textAlign="justified">
@@ -172,13 +173,13 @@ const Resume = () => {
             <List >
               <List.Item>
                 {" "}
-                <strong>Flatiron School</strong> -Atlanta, Ga 2019| Full Stack Web Development, Ruby on Rails, JavaScript, React           
+                <strong>Flatiron School</strong> - Atlanta, GA 2019| Full Stack Web Development, Ruby on Rails, JavaScript, React           
               </List.Item>
               <List.Item>
-                <strong>Trident Technical College</strong> -Charleston, SC | Associate of Arts (AA)          
+                <strong>Trident Technical College</strong> - Charleston, SC | Associate of Arts (AA)          
               </List.Item>
               <List.Item>
-                <strong>College of Charleston</strong> -Charleston, SC | Undergraduate Studies, Communications         
+                <strong>College of Charleston</strong> - Charleston, SC | Undergraduate Studies, Communications         
               </List.Item>
             </List>
           </Container>

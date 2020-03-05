@@ -23,7 +23,7 @@ const Tasks = () => {
           <Header as="h3">Two things I am excited about:</Header>
           
             <Item relaxed="very">
-                <Item.Content verticalAlign="top">
+                <Item.Content>
                     <Item.Header>
                         Work with developers to debug and resolve a product issue
                     </Item.Header>

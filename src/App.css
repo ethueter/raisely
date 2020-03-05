@@ -33,6 +33,18 @@
   text-align: left;
 }
 
-.Item-desc {
-  text-align: justify;
+.Footer {
+  background-color: #e9d06d;
+  margin: 25px;
+  padding: 15px;
+  
 }
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+

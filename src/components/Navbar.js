@@ -36,6 +36,15 @@ const Navbar = () => {
         >
           Tasks
         </Menu.Item>
+            <Menu.Item
+                as={Link}
+                to="/resume"
+                name="resume"
+                active={activeLink === "resume"}
+                onClick={handleClick}
+            >
+                Resume
+        </Menu.Item>
         <Menu.Item
             as={Link}
             to="/about"

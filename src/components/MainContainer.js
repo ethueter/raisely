@@ -14,12 +14,12 @@ const MainContainer = () => {
                 </p>
             <Image src="sidewalk.jpg" size="large" floated='left'/>  
             <p>
-                I love living in Charleston. I came to this city for a weekend...now I have been here for 20 years now.
-                As one of the oldest cities in the country, you can find history around every corner. My second apartment here was build in 1740! (About 8 blocks from this photo)
+                I love living in Charleston. I came to this city for a weekend... I have been here for 20 years now.
+                As one of the oldest cities in the country, you can find history around every corner. My second apartment here was built in 1740! (About 8 blocks from this photo)
                 </p> 
             <Image src="cistern1.jpg" size='large' floated="right" />
             <p>
-                There is always something going on. From the Charleston Wine + Food festival, Cooper River Bridge Run, Southeastern Wildlife Expo, countless oyster roasts to my favorite, Spoleto Festival USA, you can always find something to do.
+                There is always something going on in Charleston. From the Charleston Wine + Food festival, Cooper River Bridge Run, Southeastern Wildlife Expo, countless oyster roasts, to my favorite, Spoleto Festival USA. You can always find something to do.
                 I worked for the Spoleto Festival for 9 years and made it a point to never miss a jazz concert on the Cistern (pictured right).
             </p>
             <Image src="follykayak.jpg" size="large" floated="left"/>

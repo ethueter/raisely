@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Segment, Header } from 'semantic-ui-react';
+import { Container, Divider, Header } from 'semantic-ui-react';
 
 
 const Answers = () => {
     
     return (
-      <div>
-        <Segment vertical>
+      <Container>
+        
           <Header as="h3">
             Why would you be a good fit for the Customer Success Engineer role?
           </Header>
@@ -46,8 +46,8 @@ const Answers = () => {
                 Engineer a perfect fit for me.
             </p>
           </Container>
-        </Segment>
-        <Segment vertical>
+        <Divider />
+        
           <Header as="h3">
             Why do you want to work here over somewhere else?
           </Header>
@@ -64,11 +64,11 @@ const Answers = () => {
                 you offer.
             </p>
           </Container>
-        </Segment>
-        <Segment vertical>
+        <Divider />
+        
           <Header as="h3" size="medium">
             Tell us about a platform you believe has solved a complex problem
-            really well, and why. Would you change anything in their approach?
+            really well, and why. 
           </Header>
           <Container textAlign="justified" text="true">
             <p>
@@ -92,8 +92,8 @@ const Answers = () => {
                 changes to their system as it evolved.
             </p>
           </Container>
-        </Segment>
-      </div>
+        
+      </Container>
     );
 };
 

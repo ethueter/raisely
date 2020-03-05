@@ -10,7 +10,7 @@ const Answers = () => {
           <Header as="h3">
             Why would you be a good fit for the Customer Success Engineer role?
           </Header>
-          <Container textAlign="justified">
+          <Container textAlign="justified" text="true">
             <p>
                 My past experience and my current passion make me an excellent fit
                 for the Customer Success Engineer position. In my past careers every
@@ -51,7 +51,7 @@ const Answers = () => {
           <Header as="h3">
             Why do you want to work here over somewhere else?
           </Header>
-          <Container textAlign="justified">
+          <Container textAlign="justified" text="true">
             <p>
                 I have always had a close connection to non-profits, starting with
                 my very first job. I have seen and been a part of small teams with
@@ -66,11 +66,11 @@ const Answers = () => {
           </Container>
         </Segment>
         <Segment vertical>
-          <Header as="h3">
+          <Header as="h3" size="medium">
             Tell us about a platform you believe has solved a complex problem
             really well, and why. Would you change anything in their approach?
           </Header>
-          <Container textAlign="justified">
+          <Container textAlign="justified" text="true">
             <p>
                 When I started with Charleston Green Taxi there was no uber or Lyft.
                 There were no apps at all for the taxi industry. We saw an industry

@@ -3,7 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
 import MainContainer from './components/MainContainer';
-import Answers from './components/Q&A'
+import Answers from './components/Q&A';
+import Tasks from './components/Tasks';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route exact path='/About' component={About} />
           <Route exact path="/Answers" component={Answers} />
+          <Route exact path="/Tasks" component={Tasks} />
           <Route exact path='/' component={MainContainer} />
         </Switch>
       </div>

@@ -29,12 +29,22 @@ const Navbar = () => {
         </Menu.Item>
         <Menu.Item
           as={Link}
-          to="/about"
-          name="about"
-          active={activeLink === "about"}
+          to="/tasks"
+          name="tasks"
+          active={activeLink === "tasks"}
           onClick={handleClick}
         >
-          About
+          Tasks
+        </Menu.Item>
+        <Menu.Item
+            as={Link}
+            to="/about"
+            name="about"
+            active={activeLink === "about"}
+            onClick={handleClick}
+            position="right"
+        >
+            About
         </Menu.Item>
       </Menu>
     );

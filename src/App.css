@@ -32,3 +32,7 @@
 .About-text {
   text-align: left;
 }
+
+.Item-desc {
+  text-align: justify;
+}

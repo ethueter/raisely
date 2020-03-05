@@ -8,27 +8,36 @@ const Navbar = () => {
     const handleClick = (e, {name}) => setActiveLink(name)
     
     return (
-        <Menu>
-            <Menu.Item
-                as={Link}
-                to="/"
-                name="home"
-                active={activeLink === 'home'}
-                onClick={handleClick}
-                >
-                Home
-            </Menu.Item>
-            <Menu.Item
-                as={Link}
-                to="/about"
-                name="about"
-                active={activeLink === 'about'}
-                onClick={handleClick}
-            >
-                About
-            </Menu.Item>
-        </Menu>
-    )
+      <Menu>
+        <Menu.Item
+          as={Link}
+          to="/"
+          name="home"
+          active={activeLink === "home"}
+          onClick={handleClick}
+        >
+          Home
+        </Menu.Item>
+        <Menu.Item
+          as={Link}
+          to="/answers"
+          name="about"
+          active={activeLink === "answers"}
+          onClick={handleClick}
+        >
+          Q & A
+        </Menu.Item>
+        <Menu.Item
+          as={Link}
+          to="/about"
+          name="about"
+          active={activeLink === "about"}
+          onClick={handleClick}
+        >
+          About
+        </Menu.Item>
+      </Menu>
+    );
 };
 
 export default Navbar;

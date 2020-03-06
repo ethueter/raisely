@@ -72,7 +72,7 @@ const Tasks = () => {
                 </Item.Header>
                 <Item.Description className="padd-left">
                   I have experience creating content for social platforms but I feel this is an area where there is a lot to learn. 
-                  The trends, platforms and tools are constantly changing and will provide endless opportunites for me to learn new skills.
+                  The trends, platforms, and tools are constantly changing and will provide endless opportunites for me to learn new skills.
                 </Item.Description>
               </Item.Content>
             </Item>
@@ -84,7 +84,7 @@ const Tasks = () => {
                 </Item.Header>
                 <Item.Description className="padd-left">
                   I feel each customer’s situation is unique and I would
-                  prefer to train them individually. That said if there is a
+                  prefer to train them individually. That said, if there is a
                   significant amount of boilerplate set up that could speed up
                   training, then I would be interested in putting that together.
                 </Item.Description>
@@ -97,7 +97,7 @@ const Tasks = () => {
                 </Item.Header>
                 <Item.Description className="padd-left">
                                 I am not sure anyone really <strong>wants</strong> to engage with angry/upset
-                  customers. But I have extensive
+                  customers. However, I have extensive
                   experience in this area and I am confident in my ability to calm
                   people and help guide them to a solution.
                 </Item.Description>
